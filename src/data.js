@@ -3,7 +3,7 @@ const posts = [
     poster: {
       name: "Vincent van Gogh",
       location: "Zudert, Netherlands",
-      avatar: "/",
+      avatar: "/vincent-van-gogh.png",
       username: "vincey1853",
     },
     img: "/postImage.png",
