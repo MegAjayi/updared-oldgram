@@ -59,3 +59,5 @@ function renderPosts() {
     containerEl.innerHTML = postHTML(post);
   });
 }
+
+renderPosts();
