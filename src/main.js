@@ -1,4 +1,5 @@
-import "./style.css";
+// import "./style.css";
+import { posts } from "./data.js";
 
 /**
  * This function will be used as an helper function by the renderPosts function to render all posts in data.js
@@ -55,8 +56,8 @@ function postHTML(post) {
  */
 function renderPosts() {
   const containerEl = document.getElementById("posts-container");
-  posts.array.forEach((postHTML) => {
-    containerEl.innerHTML = postHTML(post);
+  posts.forEach((post) => {
+    containerEl.innerHTML += postHTML(post);
   });
 }
 
