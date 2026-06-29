@@ -15,7 +15,7 @@ const posts = [
     poster: {
       name: "Gustave Courbet",
       location: "Ornans, France",
-      avatar: "/public/gustave-courbet.png",
+      avatar: "/public/gustave-ourbet.png",
       username: "gus1819",
     },
     img: "/public/postImage1.png",

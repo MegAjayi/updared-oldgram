@@ -29,15 +29,17 @@ function postHTML(post) {
   <article class="postCard">
   <div class="posterInfo">
   <img class="avatar" src="${poster.avatar}" alt="${poster.name}">
-  <span class="posterName">${poster.name}</span>
-  <span class="posterLocation">${poster.location}</span>
+      <div>
+          <span class="posterName">${poster.name}</span> <br/>
+           <span class="posterLocation">${poster.location}</span>
+      </div>
   </div>
   <img class="postImage" src="${img}" alt=" post by ${poster.name}">
 
   <div class="postBody">
   <p class="likesCount">${likes}</p>
   <p class="postCaption">
-  <span class="username">@${poster.username}</span>
+  <span class="username">${poster.username}</span>
   </p>
   </div>
 
